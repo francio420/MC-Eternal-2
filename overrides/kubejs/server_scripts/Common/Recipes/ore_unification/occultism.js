@@ -17,6 +17,7 @@ createModule("occultism")
         }
 
         crushMaterialToDust(Item.of(global.preferredOreProducts.coal.dust), Item.of("minecraft:coal"), "coal", "coal")
+        crushMaterialToDust(Item.of(global.preferredOreProducts.obsidian.dust), Item.of("minecraft:obsidian"), "obsidian", "obsidian")
     }
 
 modules.occultism.main = (event, matId, material) => {
