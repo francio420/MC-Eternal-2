@@ -11,5 +11,6 @@ ServerEvents.recipes(event => {
 	event.recipes.biomancy.bio_forging([Item.of('biomancy:bone_fragments', 8), 'biomancy:mob_claw', 'ars_nouveau:earth_essence'], 'ars_nouveau:wilden_horn', 'biomancy:components').nutrientsCost(20)
   event.recipes.biomancy.bio_forging([Item.of('biomancy:bone_fragments', 8), 'biomancy:mob_fang', 'ars_nouveau:water_essence'], 'ars_nouveau:wilden_spike', 'biomancy:components').nutrientsCost(20)
   event.recipes.biomancy.bio_forging([Item.of('biomancy:elastic_fibers', 8), 'minecraft:phantom_membrane', 'ars_nouveau:air_essence'], 'ars_nouveau:wilden_wing', 'biomancy:components').nutrientsCost(20)
-  event.recipes.biomancy.bio_forging([Item.of('botania:mana_powder', 'biomancy:nutrients', ('biomancy:organic_matter', 2)], ('botania:fertilizer', 4), 'biomancy:misc').nutrientsCost(4)
+  event.recipes.biomancy.bio_forging([Item.of('botania:mana_powder'), 'biomancy:nutrients', Item.of('biomancy:organic_matter', 2)], Item.of('botania:fertilizer', 4), 'biomancy:misc').nutrientsCost(4)
+
 })
