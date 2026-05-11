@@ -805,6 +805,54 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1
+				id: "vista:cassette"
+				tag: {
+					cassette_tape: "vista:notsoon"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vista:cassette"
+				tag: {
+					cassette_tape: "vista:67"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vista:cassette"
+				tag: {
+					cassette_tape: "vista:maze3d"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vista:cassette"
+				tag: {
+					cassette_tape: "vista:tower"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "vista:cassette"
+				tag: {
+					cassette_tape: "vista:cyclops"
+				}
+			}
+		}
+		{ item: "goety:ominous_shackles" }
+		{ item: "alexscaves:sack_of_sating" }
+		{ item: "farmingforblockheads:market" }
 	]
 	title: "{ftbquests.loot_table.7614141430405098414.title}"
 }
