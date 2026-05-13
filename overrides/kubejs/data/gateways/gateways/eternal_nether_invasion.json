@@ -375,6 +375,11 @@
       "entity": "netherexp:wisp",
       "count": 1
     }
+  },
+  {
+    "type": "gateways:command",
+    "desc": "Return Gateway Pearl",
+    "command": "give <summoner> gateways:gate_pearl{gateway:\"gateways:eternal_nether_invasion\"} 1"
   }
 ]
 }
