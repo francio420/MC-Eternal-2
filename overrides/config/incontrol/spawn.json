@@ -8,7 +8,7 @@
     "speedmultiply": 1.1,
     "armorchest": ["immersive_armors:wither_chestplate"],
     "armorlegs": ["immersive_armors:wither_leggings"],
-    "helditem": ["irons_spellbooks:keeper_flamberge", "goety:death_scythe", "goety:dark_scythe", "goety:dark_sword", "goety:fell_blade", "goety:philosophers_mace", "goety:bonehead_hammer"],
+    "helditem": ["irons_spellbooks:magehunter", "species:spectralibur", "goety:death_scythe", "goety:dark_scythe", "goety:dark_sword", "goety:fell_blade", "goety:philosophers_mace", "goety:bonehead_hammer"],
     "armorboots": ["immersive_armors:wither_boots"]
   },
    {
@@ -20,7 +20,7 @@
     "speedmultiply": 1.1,
     "armorchest": ["immersive_armors:wither_chestplate"],
     "armorlegs": ["immersive_armors:wither_leggings"],
-    "helditem": ["irons_spellbooks:keeper_flamberge", "goety:death_scythe", "goety:dark_scythe", "goety:dark_sword"],
+    "helditem": ["goety:death_scythe", "goety:dark_scythe", "goety:dark_sword"],
     "armorboots": ["immersive_armors:wither_boots"]
   },
      {
