@@ -1745,13 +1745,13 @@
       {
       "type": "goblintraders:basic",
       "experience": 4,
-      "max_trades": 1,
+      "max_trades": 4,
       "offer_item": {
-        "count": 1,
-        "item": "alshanex_familiars:mysterious_orb"
+        "count": 4,
+        "item": "irons_restrictions:fragment"
       },
       "payment_item": {
-        "count": 45,
+        "count": 40,
         "item": "minecraft:emerald"
       },
       "price_multiplier": 0.0
