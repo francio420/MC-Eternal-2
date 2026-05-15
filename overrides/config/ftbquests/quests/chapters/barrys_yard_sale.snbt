@@ -1636,7 +1636,7 @@
 			}]
 			subtitle: "Purchase Wind Generator"
 			tasks: [{
-				amount: 1500L
+				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "640DF55935494627"
 				type: "eternalcurrencies:currency"
