@@ -25,7 +25,7 @@
 		]
 	},
 	"root_resistance+1%": {
-		"title": "Tank: +25% Resistance",
+		"title": "Tank: +15% Resistance",
 		"frame": {
 			"type": "advancement",
 			"data": {
@@ -43,7 +43,7 @@
 				"type": "puffish_skills:attribute",
 				"data": {
 					"attribute": "puffish_attributes:player.resistance",
-					"value": 0.25,
+					"value": 0.15,
 					"operation": "addition"
 				}
 			}
