@@ -117,12 +117,7 @@
       "minCount": 1,
       "maxCount": 1
     },
-    {
-      "type": "quark:forgotten",
-      "weight": 160,
-      "minCount": 1,
-      "maxCount": 1
-    },
+
     {
       "type": "alexscaves:corrodent",
       "weight": 100,
