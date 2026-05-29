@@ -119,9 +119,9 @@
     },
     {
       "type": "quark:forgotten",
-      "weight": 250,
+      "weight": 160,
       "minCount": 1,
-      "maxCount": 2
+      "maxCount": 1
     },
     {
       "type": "alexscaves:corrodent",
