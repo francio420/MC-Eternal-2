@@ -106,13 +106,13 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Rate of damage for Raygun normally.
 	#
 	#Range: 0.0 ~ 1000.0
-	raygunNormalDamage = 4.0
+	raygunNormalDamage = 2.0
 	#----------------------------------
 	#
 	# Rate of damage for Raygun when gamma enchanted.
 	#
 	#Range: 0.0 ~ 1000.0
-	raygunGammaDamage = 7.0
+	raygunGammaDamage = 4.0
 
 ["Mob Attack/Health Options"]
 	#Range: 1.0 ~ 1000000.0
@@ -140,15 +140,15 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	candicornMaxHealth = 50.0
 	#Range: 1.0 ~ 1000000.0
-	candicornAttackDamage = 6.0
+	candicornAttackDamage = 9.0
 	#Range: 1.0 ~ 1000000.0
 	caniacMaxHealth = 38.0
 	#Range: 1.0 ~ 1000000.0
 	caniacAttackDamage = 12.0
 	#Range: 1.0 ~ 1000000.0
-	caramelCubeMaxHealth = 4.0
+	caramelCubeMaxHealth = 24.0
 	#Range: 1.0 ~ 1000000.0
-	caramelCubeAttackDamage = 2.0
+	caramelCubeAttackDamage = 6.0
 	#Range: 1.0 ~ 1000000.0
 	corrodentMaxHealth = 16.0
 	#Range: 1.0 ~ 1000000.0
@@ -156,19 +156,19 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	corrodentArmor = 2.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneMaxHealth = 60.0
+	deepOneMaxHealth = 160.0
 	#Range: 1.0 ~ 1000000.0
 	deepOneAttackDamage = 23.0
 	#Range: 0.0 ~ 1000000.0
 	deepOneArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneKnightMaxHealth = 60.0
+	deepOneKnightMaxHealth = 180.0
 	#Range: 1.0 ~ 1000000.0
 	deepOneKnightAttackDamage = 25.0
 	#Range: 0.0 ~ 1000000.0
-	deepOneKnightArmor = 0.0
+	deepOneKnightArmor = 20.0
 	#Range: 1.0 ~ 1000000.0
-	deepOneMageMaxHealth = 80.0
+	deepOneMageMaxHealth = 180.0
 	#Range: 1.0 ~ 1000000.0
 	deepOneMageAttackDamage = 34.0
 	#Range: 0.0 ~ 1000000.0
@@ -180,7 +180,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	ferrouslimeArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	forsakenMaxHealth = 500.0
+	forsakenMaxHealth = 800.0
 	#Range: 1.0 ~ 1000000.0
 	forsakenAttackDamage = 35.0
 	#Range: 1.0 ~ 1000000.0
@@ -220,13 +220,13 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	gumbeeperArmor = 4.0
 	#Range: 1.0 ~ 1000000.0
-	gummyBearMaxHealth = 36.0
+	gummyBearMaxHealth = 86.0
 	#Range: 1.0 ~ 1000000.0
-	gummyBearAttackDamage = 15.0
+	gummyBearAttackDamage = 35.0
 	#Range: 1.0 ~ 1000000.0
-	gumWormMaxHealth = 450.0
+	gumWormMaxHealth = 650.0
 	#Range: 1.0 ~ 1000000.0
-	gumWormAttackDamage = 18.0
+	gumWormAttackDamage = 28.0
 	#Range: 0.0 ~ 1000000.0
 	gumWormArmor = 9.0
 	#Range: 1.0 ~ 1000000.0
@@ -240,17 +240,17 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	lanternfishArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	licowitchMaxHealth = 140.0
+	licowitchMaxHealth = 600.0
 	#Range: 1.0 ~ 1000000.0
 	licowitchAttackDamage = 30.0
 	#Range: 1.0 ~ 1000000.0
 	luxtructosaurusMaxHealth = 950.0
 	#Range: 1.0 ~ 1000000.0
-	luxtructosaurusAttackDamage = 34.0
+	luxtructosaurusAttackDamage = 54.0
 	#Range: 0.0 ~ 1000000.0
 	luxtructosaurusArmor = 25.0
 	#Range: 1.0 ~ 1000000.0
-	luxtructosaurusFireBreathAttackDamage = 40.0
+	luxtructosaurusFireBreathAttackDamage = 60.0
 	#Range: 1.0 ~ 1000000.0
 	magnetronMaxHealth = 350.0
 	#Range: 1.0 ~ 1000000.0
@@ -264,7 +264,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 0.0 ~ 1000000.0
 	mineGuardianArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	notorMaxHealth = 6.0
+	notorMaxHealth = 26.0
 	#Range: 0.0 ~ 1000000.0
 	notorArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
@@ -294,21 +294,21 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	sweetishFishMaxHealth = 4.0
 	#Range: 1.0 ~ 1000000.0
-	subterranodonMaxHealth = 40.0
+	subterranodonMaxHealth = 90.0
 	#Range: 1.0 ~ 1000000.0
-	subterranodonAttackDamage = 12.0
+	subterranodonAttackDamage = 17.0
 	#Range: 0.0 ~ 1000000.0
 	subterranodonArmor = 0.0
 	#Range: 1.0 ~ 1000000.0
-	teletorMaxHealth = 18.0
+	teletorMaxHealth = 48.0
 	#Range: 1.0 ~ 1000000.0
-	teletorAttackDamage = 2.0
+	teletorAttackDamage = 12.0
 	#Range: 0.0 ~ 1000000.0
-	teletorArmor = 0.0
+	teletorArmor = 10.0
 	#Range: 1.0 ~ 1000000.0
 	tremorsaurusMaxHealth = 860.0
 	#Range: 1.0 ~ 1000000.0
-	tremorsaurusAttackDamage = 45.0
+	tremorsaurusAttackDamage = 55.0
 	#Range: 0.0 ~ 1000000.0
 	tremorsaurusArmor = 35.0
 	#Range: 1.0 ~ 1000000.0
@@ -395,7 +395,7 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	# Base damage for the floating dagger ability on Desolate Daggers.
 	#
 	#Range: 0.0 ~ 1000000.0
-	desolateDaggersAbilityBaseDamage = 2.5
+	desolateDaggersAbilityBaseDamage = 3.0
 	#----------------------------------
 	#
 	# Extra damage per Impending Stable enchantment level for the floating dagger ability on Desolate Daggers.
