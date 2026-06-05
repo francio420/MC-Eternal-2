@@ -102,13 +102,13 @@
                 "type": "illager_additions:beamloger",
                 "maxCount": 1,
                 "minCount": 1,
-                "weight": 50
+                "weight": 20
             },
              {
                 "type": "illager_additions:shogun",
                 "maxCount": 1,
                 "minCount": 1,
-                "weight": 50
+                "weight": 20
             },
             {
                 "type": "iceandfire:troll",
