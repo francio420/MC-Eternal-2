@@ -5376,7 +5376,6 @@
 		{ item: "cataclysm_spellbooks:mechanical_brace" }
 		{ item: "rats:vial_of_sentience" }
 		{ item: "irons_spellbooks:graybeard_staff" }
-		{ item: "irons_restrictions:unfinished_manuscript" }
 		{
 			item: {
 				Count: 1
@@ -5551,6 +5550,32 @@
 						lvl: 3s
 					}]
 					RepairCost: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					CustomPotionColor: 16333189
+					CustomPotionEffects: [{
+						Ambient: 0b
+						Amplifier: 1b
+						CurativeItems: [{
+							Count: 1b
+							id: "minecraft:milk_bucket"
+						}]
+						Duration: 33600
+						Id: 326
+						ShowIcon: 1b
+						ShowParticles: 1b
+						"forge:id": "species:tanked"
+						pufferfish_unofficial_additions.modified: 0b
+					}]
+					display: {
+						Name: "{\"translate\":\"name.mce2.barrys_yard_sale.7\"}"
+					}
 				}
 			}
 		}
