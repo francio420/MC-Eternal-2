@@ -1,28 +1,14 @@
-PlayerEvents.tick(event => {
-  const player = event.player
-  if (player.level.isClientSide) return
-  if (player.age % 20 !== 0) return
+let timer = 0
+ServerEvents.tick(event => {
+    timer++
+    if (timer < 300) return
+    timer = 0
 
-  const ITEM_ID = 'kubejs:pocket_watch'
-  const EFFECT_ID = 'tombstone:unstable_intangibility'
-  const hasInInventory = player.inventory.findItem(ITEM_ID) != null
-
-  let hasInCurios = false
-  const curios = player.persistentData.curios
-  if (curios) {
-    for (const slot of Object.values(curios)) {
-      if (Array.isArray(slot) && slot.some(item => item.id === ITEM_ID)) {
-        hasInCurios = true
-        break
-      }
-    }
-  }
-
-  const hasWatch = hasInInventory || hasInCurios
-  const hasEffect = player.hasEffect(EFFECT_ID)
-  if (hasWatch && !hasEffect) {
-    player.potionEffects.add(EFFECT_ID, 40, 0, true, true)
-  } else if (!hasWatch && hasEffect) {
-    player.potionEffects.remove(EFFECT_ID)
-  }
+    event.server.players.forEach(player => {
+        if (player.inventory.count('kubejs:pocket_watch') > 0) {
+            player.potionEffects.add('tombstone:unstable_intangibility', 320, 0, false, false)
+        } else {
+            player.removeEffect('tombstone:unstable_intangibility')
+        }
+    })
 })
