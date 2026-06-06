@@ -53,12 +53,14 @@
       "alexscaves:tesla_bulb"
     ],
         [
-            "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_upper",
             "minecraft:ore_coal_lower",
             "minecraft:ore_iron_upper",
             "minecraft:ore_iron_middle",
             "minecraft:ore_iron_small",
-        
+        "thermal:silver_ore",
+        "thermal:lead_ore",
+       "irons_spellbooks:deepslate_mithril_ore",
             "minecraft:ore_gold_lower",
             "minecraft:ore_redstone",
             "minecraft:ore_redstone_lower",
@@ -66,6 +68,7 @@
             "minecraft:ore_diamond_large",
             "minecraft:ore_diamond_buried",
             "minecraft:ore_lapis",
+            "minecraft:ore_emerald",
             "minecraft:ore_lapis_buried",
             "minecraft:ore_copper"
         ],
@@ -118,9 +121,9 @@
             },
           {
       "type": "alexsmobs:rocky_roller",
-      "weight": 140,
+      "weight": 80,
       "minCount": 1,
-      "maxCount": 3
+      "maxCount": 1
     },
     {
       "type": "species:ghoul",
