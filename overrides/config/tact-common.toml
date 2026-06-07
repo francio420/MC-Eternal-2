@@ -244,11 +244,11 @@ subterranodonFlightMeterUsageSpeed = 1.0
 	#Range: 1.0 ~ 1000000.0
 	licowitchAttackDamage = 30.0
 	#Range: 1.0 ~ 1000000.0
-	luxtructosaurusMaxHealth = 950.0
+	luxtructosaurusMaxHealth = 1250.0
 	#Range: 1.0 ~ 1000000.0
 	luxtructosaurusAttackDamage = 54.0
 	#Range: 0.0 ~ 1000000.0
-	luxtructosaurusArmor = 25.0
+	luxtructosaurusArmor = 35.0
 	#Range: 1.0 ~ 1000000.0
 	luxtructosaurusFireBreathAttackDamage = 60.0
 	#Range: 1.0 ~ 1000000.0
