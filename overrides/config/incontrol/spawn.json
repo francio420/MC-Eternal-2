@@ -13,6 +13,62 @@
     "armorboots": ["immersive_armors:wither_boots"]
   },
    {
+    "mob": "rats:neo_ratlantean",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+  {
+    "mob": "rats:dutchrat",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mob": "rats:black_death",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 2.5,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+  {
+    "mob": "rats:rat_baron",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.0
+  },
+  {
+    "mob": "rats:ratlantean_automaton",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mob": "rats:plague_beast",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 1.5,
+    "damagemultiply": 2.5,
+    "speedmultiply": 1.0
+  },
+   {
+    "mod": "illager_additions",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 3.5,
+    "damagemultiply": 3.5,
+    "speedmultiply": 1.0
+  },
+   {
     "mob":"specialmobs:knightwitherskeleton",
     "when": "onjoin",
     "customname": "§eUndead Dragon Knight",
