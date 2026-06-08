@@ -19,7 +19,7 @@
     "dropgear": 3
   },
   "gear": {
-    "mainhand": "{id:\"goety:great_hammer\",Count:1b,tag:{Unbreakable:1b,RepairCost:3,Damage:0,display:{Name:'{\"text\":\"Ban Hammer\",\"color\":\"gold\",\"bold\":true}',Lore:['{\"text\":\"Owned by Goat3045\",\"color\":\"gray\"}','{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"bold\":true}']},Enchantments:[{lvl:3s,id:\"minecraft:knockback\"},{lvl:10s,id:\"minecraft:smite\"}]}}",
+    "mainhand": "{id:\"goety:great_hammer\",Count:1b,tag:{Unbreakable:1b,RepairCost:3,Damage:0,display:{Name:'{\"text\":\"Ban Hammer\",\"color\":\"gold\",\"bold\":false}',Lore:['{\"text\":\"Owned by Goat3045\",\"color\":\"gray\"}','{\"text\":\"Excellent for moderation purposes...\",\"color\":\"gold\",\"bold\":false}']},Enchantments:[{lvl:10s,id:\"minecraft:knockback\"},{lvl:1s,id:\"minecraft:air\"}]}}",
 	  "offhand": "{id: \"kubejs:loyalty_card_generic\", Count: 1b, tag: {display:{Name:'{\"text\":\"§7Half Digested Loyalty Card\"}',Lore:['{\"text\":\"§2§oYuck! You should wash your hands after touching this... Someone lost their loyalty card...\"}']},Enchantments:[{lvl: 1s, id: \"minecraft:vanishing_curse\"}]}}"
   },
   "ai-goals": {
