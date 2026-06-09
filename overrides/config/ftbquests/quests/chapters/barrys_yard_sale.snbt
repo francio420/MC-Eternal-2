@@ -1373,8 +1373,8 @@
 				type: "item"
 			}]
 			title: "{ftbquests.chapter.barrys_yard_sale.quest8721869539636658863.title}"
-			x: 12.0d
-			y: 12.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["13049AEB2F8829E1"]
@@ -1818,7 +1818,7 @@
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["CaptainSparklez greatest enemy..."]
+			description: ["This item only exists because of the misery experienced by CaptainSparklez and X33n while exploring the Crimson Forest..."]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "kubejs:crimson"
@@ -1979,6 +1979,35 @@
 			title: "&eYard Sale:&r Tendon Lump"
 			x: 12.0d
 			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [
+				"&6Hint:&r Effective at killing targets with high health regeneration by obliterating them. May destry drops in the process."
+				""
+				"&7\"And Saint Attila raised the hand grenade up on high, saying, 'O Lord, bless this thy hand grenade, that with it thou mayst blow thine enemies to tiny bits.\""
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: "royalvariations:royal_bomb"
+			id: "588FB3B1BC1E4BB5"
+			rewards: [{
+				id: "1BB8E031C01E0E8B"
+				item: "royalvariations:royal_bomb"
+				type: "item"
+			}]
+			subtitle: "Purchase Royal Bomb"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "5B47B562930E61DA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Royal Bomb"
+			x: 12.0d
+			y: 12.0d
 		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"
