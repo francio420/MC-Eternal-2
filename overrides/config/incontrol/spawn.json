@@ -14,7 +14,18 @@
     "result":"deny",
     "when": "finalize"
   },
-
+{
+    "mob": "minecraft:ender_dragon",
+    "when": "onjoin",
+    "result": "allow",
+    "customname": "§dEternal Ender Dragon",
+    "healthmultiply": 5.0,
+    "damagemultiply": 6.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "cataclysm:monstrous,999999,5"
+  ]
+  },
   {
     "mob":"vampirism:advanced_vampire",
     "when": "onjoin",
