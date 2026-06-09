@@ -104,4 +104,20 @@ ServerEvents.recipes(event => {
     // no. it lets you create infinite spawn eggs from a single instance of a mob. this is unquestionably overpowered as shit.
     event.remove({id: "mob_grinding_utils:recipe_mob_swab"})
     event.remove({id: "mob_grinding_utils:gm_chicken_feed"})
+
+
+    //Dreadsteel post-end
+    event.remove({id: "dreadsteel:dreadsteel_ingot"})
+    event.shaped(Item.of("dreadsteel:dreadsteel_ingot", 3), [
+        "DED",
+        "FIL",
+        "DED"
+    ],
+    {
+        D: "iceandfire:dread_shard",
+        E: "majruszsdifficulty:enderium_shard",
+        F: "iceandfire:dragonsteel_fire_ingot",
+        I: "iceandfire:dragonsteel_ice_ingot",
+        L: "iceandfire:dragonsteel_lightning_ingot"
+    }).id("mce2:dreadsteel_ingot")
 })
