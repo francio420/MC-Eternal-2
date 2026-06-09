@@ -9,7 +9,7 @@ ItemEvents.rightClicked(event => {
 
     player.potionEffects.add(
         'ars_nouveau:flight',
-        400, 
+        800, 
         0,  
         false,
         true
