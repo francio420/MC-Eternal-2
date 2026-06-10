@@ -74,40 +74,6 @@
 				}
 			}
 		}
-		{
-			item: {
-				Count: 1
-				id: "relics:rage_glove"
-				tag: {
-					abilities: {
-						phlebotomy: {
-							points: 0
-							stats: {
-								attack_speed: 0.00777d
-								heal: 1.1E-4d
-								movement_speed: 0.02366d
-							}
-						}
-						rage: {
-							points: 0
-							stats: {
-								dealt_damage: 0.03109d
-								duration: 2.29177d
-								incoming_damage: 0.0364d
-							}
-						}
-						spurt: {
-							points: 0
-							stats: {
-								cooldown: 16.64131d
-								damage: 0.14459d
-								distance: 3.51992d
-							}
-						}
-					}
-				}
-			}
-		}
 	]
 	title: "{ftbquests.loot_table.4371317505818580465.title}"
 }
