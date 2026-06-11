@@ -349,6 +349,15 @@
 			x: 7.035714285714285d
 			y: 11.433333333333337d
 		}
+		{
+			dependency: "13049AEB2F8829E1"
+			height: 0.5d
+			image: "iceandfire:textures/tinkers/battlesign/mod_flame.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 7.0d
+			y: 9.44761904761905d
+		}
 	]
 	order_index: 8
 	quest_links: [ ]
@@ -798,7 +807,7 @@
 			}]
 			subtitle: "Purchase Blade Shoes"
 			tasks: [{
-				amount: 400L
+				amount: 300L
 				currency: "eternalcurrencies:coins"
 				id: "5D5494F38BA16309"
 				type: "eternalcurrencies:currency"
@@ -842,11 +851,11 @@
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
 			description: [
-				"\"Whoa! is that a grilled cheese deluxe from Cheezer's?\""
-				"\"Yes it is.\""
-				"\"How did you manage this?\""
-				"\"I bought it... with &omoney.&r\""
-				"\"Nice!\""
+				"&8\"Whoa! is that a grilled cheese deluxe from Cheezer's?\""
+				"&8\"Yes it is.\""
+				"&8\"How did you manage this?\""
+				"&8\"I bought it... with &omoney.&r\""
+				"&8\"Nice!\""
 			]
 			disable_toast: true
 			hide_dependency_lines: true
@@ -863,7 +872,7 @@
 			}
 			id: "76AE8F18AD0E7279"
 			rewards: [{
-				count: 3
+				count: 2
 				id: "3864E37CAE719B5C"
 				item: {
 					Count: 1
@@ -878,7 +887,7 @@
 				team_reward: false
 				type: "item"
 			}]
-			subtitle: "Purchase a Grilled Cheese Delux"
+			subtitle: "Purchase 2x Grilled Cheese Delux"
 			tasks: [{
 				amount: 50L
 				currency: "eternalcurrencies:coins"
@@ -1805,7 +1814,11 @@
 				"13049AEB2F8829E1"
 				"0D88B45349B3E660"
 			]
-			description: ["This item only exists because of the misery experienced by CaptainSparklez and X33n while exploring the Crimson Forest..."]
+			description: [
+				"This item only exists because of the misery experienced by CaptainSparklez and X33n while exploring the Crimson Forest..."
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "kubejs:crimson"
@@ -2048,7 +2061,11 @@
 				"13049AEB2F8829E1"
 				"0D88B45349B3E660"
 			]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "bosses_of_mass_destruction:levitation_block"
@@ -2075,6 +2092,7 @@
 				"13049AEB2F8829E1"
 				"0D88B45349B3E660"
 			]
+			description: ["&4<wave>Expert Mode Unlock"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -2118,7 +2136,11 @@
 				"13049AEB2F8829E1"
 				"0D88B45349B3E660"
 			]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: "artifacts:obsidian_skull"
@@ -2144,7 +2166,11 @@
 				"13049AEB2F8829E1"
 				"0D88B45349B3E660"
 			]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"]
+			description: [
+				"{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.description2}"
+				""
+				"&4<wave>Expert Mode Unlock"
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
