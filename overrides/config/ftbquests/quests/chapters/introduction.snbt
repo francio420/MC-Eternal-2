@@ -1698,7 +1698,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "6DE074173C0ADAA0"
 					ignore_reward_blocking: true
@@ -2826,20 +2826,7 @@
 					type: "item"
 				}
 				{
-					id: "5CD6F809D38F4058"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-						id: "kubejs:loyalty_card_bm"
-					}
-					type: "item"
-				}
-				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "57D2D8AE4B62A208"
 					ignore_reward_blocking: true
@@ -2888,7 +2875,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "18EEBBE7FD036FE3"
 					ignore_reward_blocking: true
@@ -2932,7 +2919,7 @@
 					type: "item"
 				}
 				{
-					amount: 500L
+					amount: 100L
 					currency: "eternalcurrencies:coins"
 					id: "763CFBE8CF06D97B"
 					ignore_reward_blocking: true
@@ -4011,7 +3998,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1F7842C6E20527F4"
 					ignore_reward_blocking: true
@@ -4771,7 +4758,7 @@
 					type: "item"
 				}
 				{
-					amount: 80L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "1C22A75290AE3DA3"
 					ignore_reward_blocking: true
@@ -5483,7 +5470,7 @@
 					type: "item"
 				}
 				{
-					amount: 150L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "26796412B0C40551"
 					ignore_reward_blocking: true
@@ -7004,7 +6991,7 @@
 					type: "item"
 				}
 				{
-					amount: 100L
+					amount: 50L
 					currency: "eternalcurrencies:coins"
 					id: "2F8BB9E93629A339"
 					ignore_reward_blocking: true
