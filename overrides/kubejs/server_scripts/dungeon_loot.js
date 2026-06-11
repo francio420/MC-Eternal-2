@@ -6,7 +6,7 @@ LootJS.modifiers((event) => {
     ].forEach(table => {
         event
             .addLootTableModifier(table)
-            .randomChance(0.50)
+            .randomChance(0.90)
             .addLoot(
                 Item.of(
                     'eternalcurrencies:currency_item',
@@ -24,7 +24,7 @@ LootJS.modifiers((event) => {
     ].forEach(table => {
         event
             .addLootTableModifier(table)
-            .randomChance(0.60)
+            .randomChance(0.90)
             .addLoot(
                 Item.of(
                     'eternalcurrencies:currency_item',
