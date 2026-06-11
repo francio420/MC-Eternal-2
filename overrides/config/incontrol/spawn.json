@@ -861,16 +861,5 @@
     "mod":"thermal",
     "result":"deny",
     "when": "onjoin"
-  },
-  {
-    "mob":"rootoffear:wilted",
-    "gamestage":"the_desecrator",
-    "result":"default",
-    "when": "onjoin"
-  },
-  {
-    "mob":"rootoffear:wilted",
-    "result":"deny",
-    "when": "onjoin"
   }
 ]
