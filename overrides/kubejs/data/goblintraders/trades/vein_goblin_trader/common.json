@@ -76,6 +76,10 @@
         "count": 3,
         "item": "minecraft:diamond"
       },
+		"secondary_payment_item": {
+    "count": 8,
+    "item": "tinkers_advanced:stibnite"
+  },
       "price_multiplier": 0.0
     },
      {
