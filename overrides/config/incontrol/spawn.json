@@ -1,4 +1,14 @@
 [
+   {
+    "mob":"royalvariations:royal_bomb_projectile",
+    "result":"allow",
+    "when": "onjoin"
+  },
+  {
+    "mob":"royalvariations:royal_bomb",
+    "result":"allow",
+    "when": "onjoin"
+  },
   {
   "mob": "gtbcs_geomancy_plus:geo_grandmaster",
   "when": "finalize",
