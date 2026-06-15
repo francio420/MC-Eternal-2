@@ -10,7 +10,7 @@ LootJS.modifiers((event) => {
             .addLoot(
                 Item.of(
                     'eternalcurrencies:currency_item',
-                    '{currencies:[{amount:10L,currency:"eternalcurrencies:coins"}]}'
+                    '{currencies:[{amount:25L,currency:"eternalcurrencies:coins"}]}'
                 )
             );
     });
@@ -28,12 +28,12 @@ LootJS.modifiers((event) => {
             .addLoot(
                 Item.of(
                     'eternalcurrencies:currency_item',
-                    '{currencies:[{amount:10L,currency:"eternalcurrencies:coins"}]}'
+                    '{currencies:[{amount:50L,currency:"eternalcurrencies:coins"}]}'
                 )
             );
         event
             .addLootTableModifier(table)
-            .randomChance(0.20)
+            .randomChance(0.60)
             .addLoot(
                 Item.of(
                     'ftbquests:lootcrate',
@@ -48,7 +48,7 @@ LootJS.modifiers((event) => {
     ].forEach(table => {
         event
             .addLootTableModifier(table)
-            .randomChance(0.20)
+            .randomChance(0.40)
             .addLoot(
                 Item.of(
                     'ftbquests:lootcrate',
