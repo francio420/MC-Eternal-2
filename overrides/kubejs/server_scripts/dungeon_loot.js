@@ -38,7 +38,26 @@ LootJS.modifiers((event) => {
                 ]
             );
     });
-
+[
+    "iceandfire:chest/fire_dragon_female_cave",
+    "iceandfire:chest/fire_dragon_male_cave",
+    "iceandfire:chest/ice_dragon_female_cave",
+    "iceandfire:chest/ice_dragon_male_cave",
+    "iceandfire:chest/lightning_dragon_female_cave",
+    "iceandfire:chest/lightning_dragon_male_cave"
+].forEach(table => {
+    event
+        .addLootTableModifier(table)
+        .randomChance(0.1) 
+        .addWeightedLoot([
+            Item.of('iceandfire:fire_dragon_heart').withChance(1),
+            Item.of('iceandfire:ice_dragon_heart').withChance(1),
+            Item.of('iceandfire:lightning_dragon_heart').withChance(1),
+            Item.of('tcompat:fire_dragonsteel_nugget').withChance(1),
+            Item.of('tcompat:lightning_dragonsteel_nugget').withChance(1),
+            Item.of('tcompat:ice_dragonsteel_nugget').withChance(1)
+        ]);
+});
     [
         "minecraft:chests/nether_bridge",
         "minecraft:chests/bastion_treasure",
@@ -97,6 +116,10 @@ LootJS.modifiers((event) => {
             .randomChance(0.90)
             .addWeightedLoot(
                 [
+                     Item.of(
+                    'eternalcurrencies:currency_item',
+                    '{currencies:[{amount:50L,currency:"eternalcurrencies:coins"}]}'
+                ),
                     Item.of('iceandfire:dragonscales_green').withChance(2),
                     Item.of('iceandfire:dragonscales_red').withChance(2),
                     Item.of('iceandfire:dragonscales_blue').withChance(2),
