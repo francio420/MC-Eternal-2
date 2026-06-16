@@ -23,7 +23,7 @@
 			rotation: 0.0d
 			width: 4.0d
 			x: 7.0d
-			y: 1.0d
+			y: 0.9d
 		}
 		{
 			height: 18.0d
@@ -89,6 +89,7 @@
 			y: 5.56845238095238d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_s"
@@ -98,6 +99,7 @@
 			y: 7.0d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_h"
@@ -107,6 +109,7 @@
 			y: 7.0d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_o"
@@ -116,6 +119,7 @@
 			y: 7.0d
 		}
 		{
+			color: 11833005
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_p"
@@ -278,6 +282,7 @@
 			y: 5.425595238095241d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/exclamation_mark"
@@ -287,6 +292,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_o"
@@ -296,6 +302,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_p"
@@ -305,6 +312,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_e"
@@ -314,6 +322,7 @@
 			y: 7.0d
 		}
 		{
+			color: 15453067
 			dependency: "13049AEB2F8829E1"
 			height: 1.0d
 			image: "fairylights:entity/letter/latin_capital_letter_n"
@@ -357,6 +366,157 @@
 			width: 0.5d
 			x: 7.0d
 			y: 9.44761904761905d
+		}
+		{
+			color: 5570456
+			dependency: "13049AEB2F8829E1"
+			height: 12.0d
+			image: "hexcasting:block/akashic_bookshelf"
+			order: -1
+			rotation: 0.0d
+			width: 12.0d
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_r"
+			rotation: 0.0d
+			width: 1.0d
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 19.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_s"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_o"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_u"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_r"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 25.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_c"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 6.0d
+		}
+		{
+			color: 10731148
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_s"
+			rotation: 0.0d
+			width: 1.0d
+			x: 26.0d
+			y: 6.0d
+		}
+		{
+			color: 15453067
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/digit_four"
+			rotation: 0.0d
+			width: 1.0d
+			x: 20.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_s"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_a"
+			rotation: 0.0d
+			width: 1.0d
+			x: 22.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_l"
+			rotation: 0.0d
+			width: 1.0d
+			x: 23.0d
+			y: 11.0d
+		}
+		{
+			color: 9419963
+			dependency: "13049AEB2F8829E1"
+			height: 1.0d
+			image: "fairylights:entity/letter/latin_capital_letter_e"
+			rotation: 0.0d
+			width: 1.0d
+			x: 24.0d
+			y: 11.0d
 		}
 	]
 	order_index: 8
@@ -1548,6 +1708,7 @@
 				item: "mekanismgenerators:wind_generator"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Purchase Wind Generator"
 			tasks: [{
 				amount: 1800L
@@ -1828,6 +1989,7 @@
 				item: "kubejs:crimson"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Purchase a Can of Mosquito Repellent"
 			tasks: [{
 				amount: 300L
@@ -2075,6 +2237,7 @@
 				item: "bosses_of_mass_destruction:levitation_block"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Purchase Table of Elevation"
 			tasks: [{
 				amount: 3500L
@@ -2120,6 +2283,7 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Purchase Enchanted Book Mending"
 			tasks: [{
 				amount: 500L
@@ -2150,6 +2314,7 @@
 				item: "artifacts:obsidian_skull"
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Purchase Obsidian Skull"
 			tasks: [{
 				amount: 800L
@@ -2207,6 +2372,7 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.subtitle}"
 			tasks: [{
 				amount: 3500L
@@ -2217,6 +2383,390 @@
 			title: "{ftbquests.chapter.barrys_yard_sale.quest8551930078568542841.title}"
 			x: 11.0d
 			y: 12.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:iron_ingot"
+			id: "08C5214888BEA5E2"
+			rewards: [{
+				id: "60A63B32518DA778"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Purchase 1x Iron Ingot"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "289038BD218E7914"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Iron Ingot"
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:gold_ingot"
+			id: "2FEDD85B1CF6D296"
+			rewards: [{
+				id: "47338695F865277B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			subtitle: "Purchase 1x Gold Ingot"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "49ADC5D308436806"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Gold Ingot"
+			x: 21.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:lapis_lazuli"
+			id: "07732F6FD2CD9DE5"
+			rewards: [{
+				count: 8
+				id: "6B410B3A10DBC271"
+				item: "minecraft:lapis_lazuli"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Lapis Lazuli"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "2BC94C96A7550DFA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Lapis Lazuli"
+			x: 23.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:redstone"
+			id: "7373709CC336E7C2"
+			rewards: [{
+				count: 8
+				id: "1FD4EA5A0452B0D5"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Redstone Dust"
+			tasks: [{
+				amount: 80L
+				currency: "eternalcurrencies:coins"
+				id: "3F0F8A23842FB071"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Redstone Dust"
+			x: 25.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:andesite"
+			id: "35B08EA2C52AF225"
+			rewards: [{
+				count: 32
+				id: "738653273831B844"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "Purchase 32x Andesite"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "568048AFCBF1010B"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Andesite"
+			x: 19.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:coal"
+			id: "6E92B25CDA351117"
+			rewards: [{
+				count: 8
+				id: "4867195BD618C357"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Coal"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "12C956F580BFDF81"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Coal"
+			x: 21.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:copper_ingot"
+			id: "7C369F798404E5E1"
+			rewards: [{
+				count: 8
+				id: "04AD5F0B516AD13F"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			subtitle: "Purchase 8x Copper Ingot"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7E0882F9DBF12AEA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Copper Ingot"
+			x: 23.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13049AEB2F8829E1"]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:amethyst_shard"
+			id: "26EC6AD4D4825D0D"
+			rewards: [{
+				count: 3
+				id: "01F63BF118CEB779"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "Purchase 3x Amethyst Shard"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "0C5F2BDAAE458CBA"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Amethyst Shard"
+			x: 25.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"5239A5F8AE9FC855"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:diamond"
+			id: "5E2BDD00B1DC5C84"
+			rewards: [{
+				id: "34E84901687AF637"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Diamond"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "78512C862AFA312A"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Diamond"
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "irons_spellbooks:mithril_ingot"
+			id: "16E642957DB29855"
+			rewards: [{
+				id: "7ABA06DC1F3D38B1"
+				item: "irons_spellbooks:mithril_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Mithril Ingot"
+			tasks: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "60584D9737FD8A0F"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Mithril Ingot"
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+				"0D88B45349B3E660"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:netherite_ingot"
+			id: "4978FCE18A3CFA07"
+			rewards: [{
+				id: "01F26F2C5A2EFD6E"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Netherite Ingot"
+			tasks: [{
+				amount: 300L
+				currency: "eternalcurrencies:coins"
+				id: "5338076A0F409659"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Netherite Ingot"
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "minecraft:quartz"
+			id: "5D70D666EE9C9D35"
+			rewards: [{
+				count: 8
+				id: "52A0EB5634E3215A"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 8x Nether Quartz"
+			tasks: [{
+				amount: 50L
+				currency: "eternalcurrencies:coins"
+				id: "7C1C208A2E52BFB6"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Nether Quartz"
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+				"6248503684C49C89"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mekanism:ingot_uranium"
+			id: "74B7CB25E2C8B6BA"
+			rewards: [{
+				id: "5225880D3F0591C1"
+				item: "mekanism:ingot_uranium"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Uranium Ingot"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "465B62EA205444F8"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Uranium Ingot"
+			x: 19.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13049AEB2F8829E1"
+				"099610C83CC67421"
+				"6248503684C49C89"
+			]
+			description: [""]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "mekanism:ingot_osmium"
+			id: "50D63E5D3A583FF9"
+			rewards: [{
+				id: "23D7EF01F572D5F2"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			shape: "pentagon"
+			subtitle: "Purchase 1x Osmium Ingot"
+			tasks: [{
+				amount: 100L
+				currency: "eternalcurrencies:coins"
+				id: "6CA7C2EC5FAD36EE"
+				type: "eternalcurrencies:currency"
+			}]
+			title: "&eYard Sale:&r Osmium Ingot"
+			x: 25.0d
+			y: 2.0d
 		}
 	]
 	title: "{ftbquests.chapter.barrys_yard_sale.title}"
