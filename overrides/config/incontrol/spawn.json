@@ -1054,7 +1054,7 @@
     "mod":"thermal",
     "gamestage":"expert",
     "result":"default",
-    "healthmultiply": 3.5,
+    "healthmultiply": 4.0,
     "damagemultiply": 6.5,
     "when": "onjoin"
   },
