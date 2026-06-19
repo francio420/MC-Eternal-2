@@ -1,5 +1,67 @@
 let crushMaterialToDust; // shortcut helper assigned later with event as a lambda param. not recommended for use.
 
+let reviseMiner;
+
+const minerOres = "occultism:miners/ores"
+
+const minerOreWeights = {
+    "occultism:miners/ores": {
+        iron: 750,
+        gold: 311,
+        copper: 584,
+        tin: 602,
+        silver: 381,
+        lead: 500,
+        nickel: 232,
+        uranium: 140,
+        zinc: 186,
+        cobalt: 163,
+
+        lapis: 343,
+        diamond: 218,
+        emerald: 156,
+        fluorite: 150,
+        ruby: 200,
+        sapphire: 200,
+        apatite: 233,
+        cinnabar: 190,
+        sulfur: 222,
+        niter: 233,
+
+        coal: 1000,
+        redstone: 515
+    },
+    "occultism:miners/deeps": {
+        iron: 750,
+        gold: 311,
+        copper: 584,
+        tin: 602,
+        silver: 381,
+        lead: 500,
+        nickel: 232,
+        uranium: 140,
+        zinc: 186,
+
+        lapis: 343,
+        diamond: 218,
+        emerald: 156,
+        fluorite: 150,
+        ruby: 200,
+        sapphire: 200,
+        apatite: 233,
+        cinnabar: 190,
+        sulfur: 222,
+        niter: 232,
+
+        coal: 1000,
+        redstone: 515
+    },
+    "occultism:miners/master": {
+        iesnium: 100
+    }
+}
+
+
 
 createModule("occultism")
     .init = (event) => {
@@ -18,7 +80,7 @@ createModule("occultism")
         }
 
         crushMaterialToDust(Item.of(global.preferredOreProducts.coal.dust), Item.of("minecraft:coal"), "coal")
-        
+
         occultismCrushing(event, Item.of(global.preferredOreProducts.obsidian.dust), Ingredient.of("#forge:obsidian"), 200)
             .id("mce2:unification/occultism/crushing/obsidian_dust")
 
@@ -34,6 +96,29 @@ createModule("occultism")
             .id("mce2:unification/occultism/crushing/blaze_powder_static")
         occultismCrushing(event, Item.of("occultism:datura_seeds", 2), Item.of("occultism:datura"), 200)
             .id("mce2:unification/occultism/crushing/demons_dream_seeds_static")
+
+        reviseMiner = (minerTag, resultFetcher, remover) => {
+            console.log(`Handling Miner recipe reconstruction for ${minerTag}`)
+            for (let [oreName, weight] of Object.entries(minerOreWeights[minerTag])) {
+                try {
+                    let result = resultFetcher(global.preferredOreProducts[oreName])
+                    let name = result.split(":")[1]
+                    remover(name)
+
+                    occultismMinerResult(event, Item.of(result), {tag: minerTag}, weight)
+                        .id(`mce2:unification/occultism/miner/${name}`)
+                } catch (error) {
+                    console.log(`Errored while handling Miner recipe reconstruction for ${oreName}`)
+                    console.log(error)
+                }
+            }
+        }
+
+        reviseMiner(minerOres, (material) => material.ore, name => event.remove({id: `occultism:miner/ores/${name}`}))
+        reviseMiner("occultism:miners/deeps", (material) => material.deep_ore, name => event.remove({id: `occultism:miner/deeps/${name}`}))
+        reviseMiner("occultism:miners/master", (material) => material.ore, name => event.remove({id: `occultism:miner/master/${name}`}))
+
+        
     }
 
 modules.occultism.main = (event, matId, material) => {
