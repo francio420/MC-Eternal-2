@@ -126,7 +126,7 @@
 	Lavabombradius = 2
 	#Amethyst Cluster's Damage
 	#Range: 0.0 ~ 1000000.0
-	"Amethyst Cluster Damage" = 12.0
+	"Amethyst Cluster Damage" = 15.0
 	#Sandstorm's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Sandstorm Damage" = 5.0
@@ -394,7 +394,7 @@
 	AmethystCrabEarthQuakeDamage = 10.0
 	#Amethyst Crab's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	AmethystCrabDamageMultiplier = 2.5
+	AmethystCrabDamageMultiplier = 1.5
 
 ["Ancient Remnant"]
 	#Ancient Remnant's Health Multiplier
