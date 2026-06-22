@@ -156,8 +156,8 @@
     "mob": "rats:plague_beast",
     "when": "onjoin",
     "result": "allow",
-    "healthmultiply": 1.5,
-    "damagemultiply": 2.5,
+    "healthmultiply": 2.0,
+    "damagemultiply": 4.5,
     "speedmultiply": 1.0
   },
    {
