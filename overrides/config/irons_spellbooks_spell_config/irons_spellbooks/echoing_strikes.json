@@ -6,5 +6,5 @@
   "irons_spellbooks:enabled": true,
   "irons_spellbooks:min_rarity": "rare",
   "irons_spellbooks:school": "irons_spellbooks:ender",
-  "irons_spellbooks:max_level": 3
+  "irons_spellbooks:max_level": 2
 }
