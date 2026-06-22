@@ -10,6 +10,17 @@
     "when": "onjoin"
   },
     {
+    "mob": "irons_spellbooks:archevoker",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 5.0,
+    "damagemultiply": 4.5,
+    "speedmultiply": 1.2,
+        "potion": [
+    "cataclysm:monstrous,999999,3"
+  ]
+  },
+    {
   "mob": "mowziesmobs:grottol",
   "when": "onjoin",
 "minheight": "50",
