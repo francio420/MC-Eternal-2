@@ -9,6 +9,14 @@
     "result":"allow",
     "when": "onjoin"
   },
+  {
+    "mob": "mowziesmobs:ferrous_wroughtnaut",
+    "when": "onjoin",
+    "result": "allow",
+        "potion": [
+    "gtbcs_geomancy_plus:aegis,999999,10", "royalvariations:knightly_fortitude,999999,2"
+  ]
+  },
     {
     "mob": "irons_spellbooks:archevoker",
     "when": "onjoin",
@@ -17,7 +25,7 @@
     "damagemultiply": 4.5,
     "speedmultiply": 1.2,
         "potion": [
-    "cataclysm:monstrous,999999,3"
+    "royalvariations:knightly_fortitude,999999,1"
   ]
   },
     {
@@ -64,7 +72,7 @@
     "damagemultiply": 1.0,
     "speedmultiply": 1.2,
         "potion": [
-    "cataclysm:monstrous,999999,3"
+    "royalvariations:knightly_fortitude,999999,2"
   ]
   },
   {
@@ -75,7 +83,7 @@
     "damagemultiply": 1.5,
     "speedmultiply": 1.1,
         "potion": [
-    "cataclysm:monstrous,999999,3"
+    "royalvariations:knightly_fortitude,999999,2"
   ]
   },
    {
@@ -86,7 +94,7 @@
     "damagemultiply": 1.0,
     "speedmultiply": 1.0,
         "potion": [
-    "cataclysm:monstrous,999999,3"
+    "royalvariations:knightly_fortitude,999999,1"
   ]
   },
  {
@@ -103,7 +111,7 @@
     "damagemultiply": 14.5,
     "speedmultiply": 1.2,
         "potion": [
-    "cataclysm:monstrous,999999,5"
+    "royalvariations:knightly_fortitude,999999,2"
   ]
   },
    {
@@ -114,7 +122,7 @@
     "damagemultiply": 16.5,
     "speedmultiply": 1.2,
         "potion": [
-    "cataclysm:monstrous,999999,3"
+    "royalvariations:knightly_fortitude,999999,3"
   ]
   },
 {
@@ -870,14 +878,14 @@
     "speedmultiply": 1.0
   },
   
- {
+  {
     "mod":"mutantmonsters",
     "gamestage":"master",
     "result":"default",
     "healthmultiply": 5.0,
     "damagemultiply": 15.5,
      "potion": [
-    "cataclysm:monstrous,999999,10"
+    "royalvariations:knightly_fortitude,999999,3"
   ],
     "when": "onjoin"
   },
@@ -951,7 +959,7 @@
     "damagemultiply": 6.0,
     "speedmultiply": 1.1,
         "potion": [
-    "cataclysm:monstrous,999999,4",
+    "royalvariations:knightly_fortitude,999999,1",
     "goety:flammable,999999,7"
   ]
   },
