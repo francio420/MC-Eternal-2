@@ -26,6 +26,12 @@
 "minheight": "50",
   "result": "deny"
 },
+    {
+  "mob": "species:quake",
+  "when": "onjoin",
+"minheight": "50",
+  "result": "deny"
+},
 {
   "mob": "species:limpet",
   "when": "onjoin",
