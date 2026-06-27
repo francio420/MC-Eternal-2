@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "C": {
-      "item": "minecraft:obsidian"
+      "item": "goety_cataclysm:netherite_plating"
     },
     "G": {
       "tag": "forge:glass"
@@ -15,7 +15,7 @@
     "CGC"
   ],
   "result": {
-    "count": 4,
+    "count": 12,
     "item": "mob_grinding_utils:tinted_glass"
   },
   "show_notification": true
