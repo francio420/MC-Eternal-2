@@ -29,6 +29,7 @@ ItemEvents.tooltip(event => {
 
 	event.add('dreadsteel:dreadsteel_scythe', Text.translate("tooltip.mce2.dreadsteel.dreadsteel_scythe").color('#FFFFFF'));
 	event.add('dreadsteel:dreadsteel_shield', Text.translate("tooltip.mce2.dreadsteel.dreadsteel_shield").color('#FFFFFF'));
+	event.add('ars_additions:golden_lantern', Text.translate("tooltip.mce2.dwarvendepths.golden_lantern").color('#FFFFFF'));
 
 	event.add('etched:boombox', Text.translate("tooltip.mce2.etched.boombox").color('#FFFFFF')); 
 	event.add(["#enderio:clear_glass", "#enderio:fused_quartz"], Text.translate("tooltip.mce2.generic.can_be_dyed").color("#FFFF44"))
