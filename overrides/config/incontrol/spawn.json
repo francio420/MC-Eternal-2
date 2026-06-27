@@ -984,7 +984,7 @@
     {
     "mob": "alexsmobs:underminer",
     "dimension": "mce:dwarven_depths",
-    "customname": "§4Wandering Soul",
+    "customname": "§7Wandering Soul",
     "result": "true",
     "when": "onjoin",
         "healthmultiply": 2.0,
