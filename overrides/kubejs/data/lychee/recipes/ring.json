@@ -1,0 +1,18 @@
+{
+  "type": "lychee:block_crushing",
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "kubejs:dwarven_ring",
+      "count": 1
+    }
+  ],
+  "item_in": [
+    {
+      "item": "irons_spellbooks:mithril_scrap"
+    },
+     {
+      "item": "minecraft:gold_block"
+    }
+  ]
+}
