@@ -13,9 +13,9 @@ ItemEvents.modification(event => {
                         false
                     )
                      player.potionEffects.add(
-                        'goety:gold_touched',
+                        'constructs_casting:magic_empowerment',
                         40,
-                        1,
+                        0,
                         false,
                         false
                     )
