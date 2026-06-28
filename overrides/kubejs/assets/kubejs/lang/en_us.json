@@ -199,6 +199,7 @@
     "tooltip.mce2.kubejs.regret_scroll1": "§8§oEverybody makes mistakes.. Everybody has those days..",
     "tooltip.mce2.kubejs.loot_bag.table": "Loot Table: %s",
     "tooltip.mce2.kubejs.dwarven_ring": "§7Upon equipping gain §eLava Walker§r §7and §eMagic Empowerment",
+    "tooltip.mce2.kubejs.lorkhan_heart": "§7Upon falling below half health gain 20s of §eHeartstop§r and §eHastened§r §7- §d10 Minute Cooldown",
 
     "loot_table.mce:cave_tablet_random.name": "Random Cave Tablet",
 
