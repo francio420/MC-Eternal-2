@@ -105,5 +105,5 @@ StartupEvents.registry("item", event => {
 
 
   event.create("loot_bag")
-    .fireResistant(true)
+    .fireResistant(true).glow(true);
 })
