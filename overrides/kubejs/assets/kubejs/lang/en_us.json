@@ -199,9 +199,9 @@
     "tooltip.mce2.kubejs.regret_scroll1": "§8§oEverybody makes mistakes.. Everybody has those days..",
     "tooltip.mce2.kubejs.loot_bag.table": "Loot Table: %s",
     "tooltip.mce2.kubejs.dwarven_ring": "§7Upon equipping gain §eLava Walker§r §7and §eMagic Empowerment",
-    "tooltip.mce2.kubejs.dwarven_ring1": "§7§oImbued with ancient magic, grants it's wearer certain dwarven adaptations..",
+    "tooltip.mce2.kubejs.dwarven_ring.1": "§7§oImbued with ancient magic, grants it's wearer certain dwarven adaptations..",
     "tooltip.mce2.kubejs.lorkhan_heart": "§7Upon falling below half health gain 30s of §eHeartstop§r §7- §710 Minute Cooldown",
-    "tooltip.mce2.kubejs.lorkhan_heart1": "§7§oA powerful relic once worshipped by the dwarves, perhaps it played a role in their disappearance...",
+    "tooltip.mce2.kubejs.lorkhan_heart.1": "§7§oA powerful relic once worshipped by the dwarves, perhaps it played a role in their disappearance...",
 
     "loot_table.mce:cave_tablet_random.name": "Random Cave Tablet",
 
