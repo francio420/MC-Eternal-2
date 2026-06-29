@@ -10,8 +10,8 @@ ItemEvents.modification(event => {
         const heartstop = player.health <= player.maxHealth / 2
         if (player.stages.has('curio_cooldown')) return
         if (!heartstop) return
-        player.potionEffects.add('irons_spellbooks:heartstop', 400, 0, false, false)
-        player.potionEffects.add('irons_spellbooks:hastened', 400, 3, false, false)
+        player.potionEffects.add('irons_spellbooks:heartstop', 600, 0, false, false)
+        player.potionEffects.add('irons_spellbooks:hastened', 600, 3, false, false)
 
         player.sendData('lorkhan_heart_activate', {})
                     player.stages.add('curio_cooldown')
