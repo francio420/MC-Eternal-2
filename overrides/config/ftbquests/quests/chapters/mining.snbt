@@ -1389,6 +1389,163 @@
 			x: 8.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: ["The Dwarves were expert blacksmiths, they forged powerful magical artifacts out of Mithril and Gold that lasted thousands of years.. Many however, are lost to time.."]
+			hide_until_deps_complete: true
+			id: "5FD5D011656AA6C8"
+			optional: true
+			rewards: [
+				{
+					amount: 250L
+					currency: "eternalcurrencies:coins"
+					id: "1F5F91459EA19996"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "4BB67D6FD761F472"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a &eDwarven Ring"
+			tasks: [{
+				id: "461E93B0AC5077C9"
+				item: "kubejs:dwarven_ring"
+				type: "item"
+			}]
+			title: "&6Dwarven Magic &r&7(Dwarven Artifact)"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: [
+				"The Dwarves worshipped many gods in their eons spent deep underground, this heart was said to be a vessel for one of the most powerful gods.. "
+				""
+				"Wielding it however is said to come at a great price to ones soul.."
+			]
+			hide_until_deps_complete: true
+			id: "6FF29F158989387A"
+			optional: true
+			rewards: [
+				{
+					amount: 350L
+					currency: "eternalcurrencies:coins"
+					id: "0BD090FAA6789F71"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "3E4D4840DDC3EBE4"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a &eHeart of Lorkhan"
+			tasks: [{
+				id: "1728530196833DD9"
+				item: "kubejs:lorkhan_heart"
+				type: "item"
+			}]
+			title: "&dThe Heart of a Dead God &r&7(Dwarven Artifact)"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F16592E377C17AE"]
+			description: [
+				"Shelob is a dangerous creature that lurks in the darkness of The Dwarven Depths, if it all possible you should avoid her... &oHer soul is trapped here and thus can never truly die.. "
+				""
+				"She spends her time laying spider eggs and hunting down adventurers who make a tasty snack!"
+			]
+			id: "0AB14603388854DF"
+			invisible: true
+			rewards: [
+				{
+					amount: 150L
+					currency: "eternalcurrencies:coins"
+					id: "2D6819BE8F801EC3"
+					ignore_reward_blocking: true
+					type: "eternalcurrencies:currency"
+				}
+				{
+					id: "154C9B3A3E6AC807"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							HideFlags: 33
+							display: {
+								Name: "{\"translate\":\"item.mce2.quest_loot\",\"color\":\"yellow\",\"italic\":false}"
+							}
+							type: "quest_loot"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Find Shelob (or be found by Shelob!)"
+			tasks: [{
+				icon: "goety:snaring_focus"
+				id: "4DF4ACDC0EC09010"
+				observe_type: 5
+				timer: 0L
+				title: "Spot Shelob"
+				to_observe: "goety:brood_mother"
+				type: "observation"
+			}]
+			title: "&4<shake>Shelob!"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: ["Of the many powerful artifacts the dwarves made with Mithril, the power of flight was one of them. By using the magical properties of Mithril and by doing a ritual, they were able to fly within a certain radius!"]
+			hide_until_deps_complete: true
+			id: "6E62B800B8B7950F"
+			optional: true
+			rewards: [{
+				amount: 350L
+				currency: "eternalcurrencies:coins"
+				id: "3E4D5375792A59B2"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			shape: "pentagon"
+			subtitle: "Craft a &eTablet of Flight"
+			tasks: [{
+				id: "44D3C6604F460389"
+				item: "ars_nouveau:ritual_flight"
+				type: "item"
+			}]
+			title: "&3Flight at Home!&r &7(Dwarven Artifact)"
+			x: 11.0d
+			y: 6.0d
+		}
 	]
 	title: "{ftbquests.chapter.mining.title}"
 }
