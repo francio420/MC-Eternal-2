@@ -396,6 +396,8 @@
 				""
 				""
 				"{ftbquests.chapter.clthe_nether.quest4312427528071586179.description4}"
+				""
+				"&6Hint:&r Craft the &dNether Invasion Gateway&r it drops the Palantir!"
 			]
 			icon: "kubejs:nether_item"
 			id: "3BD8D1FD1252A183"
