@@ -45,6 +45,7 @@
         "tcompat:lightning_dragonsteel",
         "tcompat:ancient_metal",
         "tcompat:witherite",
-        "constructs_casting:pyrium"
+        "constructs_casting:pyrium",
+        "tinkers_advanced:anti_neutronium"
     ]
 }
