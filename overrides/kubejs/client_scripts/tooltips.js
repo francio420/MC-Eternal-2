@@ -214,7 +214,7 @@ ItemEvents.tooltip(event => {
 	//Evil
 	event.add('endrem:evil_eye', Text.translate("tooltip.mce2.endrem.evil_eye.1").color('#5555FF'));
 	event.add('endrem:evil_eye', Text.of('\n'));
-	event.add('endrem:evil_eye', Text.translate("tooltip.mce2.endrem.legendary_eyes_base").color('#FFAA00'));
+	event.add('endrem:evil_eye', Text.translate("tooltip.mce2.endrem.legendary_eyes").color('#FFAA00'));
 
 	//Blessed
 	event.add('endrem:guardian_eye', Text.translate("tooltip.mce2.endrem.guardian_eye.1").color('#5555FF'));
