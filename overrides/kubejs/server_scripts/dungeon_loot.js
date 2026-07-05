@@ -50,9 +50,6 @@ LootJS.modifiers((event) => {
     [
         "minecraft:chests/simple_dungeon",
         "minecraft:chests/abandoned_mineshaft",
-    "dungeoncrawl:chests/stage_4",
-    "dungeoncrawl:chests/stage_5",
-    "dungeoncrawl:chests/treasure",
     "dungeoncrawl:chests/secret_room",
         "minecraft:chests/stronghold_corridor"
     ].forEach(table => {
