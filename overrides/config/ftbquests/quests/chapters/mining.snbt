@@ -1546,6 +1546,32 @@
 			x: 11.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["1B5CD795ACD7D0E5"]
+			description: [
+				"The Dwarves forged powerful weapons with &eWeapon Parts&r crafted from &eMithril&r."
+				""
+				"These magical weapons had unique properties and held incredible power. Perhaps we can craft some ourselves... "
+			]
+			hide_until_deps_complete: true
+			id: "4A172C10FE75B62F"
+			rewards: [{
+				amount: 250L
+				currency: "eternalcurrencies:coins"
+				id: "288774C799C7230E"
+				ignore_reward_blocking: true
+				type: "eternalcurrencies:currency"
+			}]
+			subtitle: "Craft &eWeapon Parts"
+			tasks: [{
+				id: "1B11016257D66C2D"
+				item: "irons_spellbooks:weapon_parts"
+				type: "item"
+			}]
+			title: "&bDwarven Might!"
+			x: 12.0d
+			y: 4.0d
+		}
 	]
 	title: "{ftbquests.chapter.mining.title}"
 }
