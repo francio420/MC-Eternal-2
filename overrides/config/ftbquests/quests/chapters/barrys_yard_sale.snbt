@@ -766,36 +766,40 @@
 		{
 			can_repeat: true
 			dependencies: ["13049AEB2F8829E1"]
-			description: ["{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.description1}"]
+			description: [
+				"Contains items which are illegal or exceptionally rare. Also contains useless items. "
+				""
+				"&6&nHigh risk. High reward."
+			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:lootcrate"
 				tag: {
-					type: "cheesy_cache"
+					type: "blackmarket_cache"
 				}
 			}
 			id: "23BDDB74459B7491"
 			rewards: [{
-				id: "197B2B854518B5BB"
+				id: "3D697F10F7105585"
 				item: {
 					Count: 1
 					id: "ftbquests:lootcrate"
 					tag: {
-						type: "cheesy_cache"
+						type: "blackmarket_cache"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.subtitle}"
+			subtitle: "Contains 1x Item from <wave>&l&d<wave>THE BLACK <wave>MARKET"
 			tasks: [{
-				amount: 150L
+				amount: 2500L
 				currency: "eternalcurrencies:coins"
 				id: "40FDCA5AFA29B0E1"
 				type: "eternalcurrencies:currency"
 			}]
-			title: "{ftbquests.chapter.barrys_yard_sale.quest2575455854356296849.title}"
+			title: "&eYard Sale:&r Unclaimed Black Market Container"
 			x: 5.0d
 			y: 12.0d
 		}
