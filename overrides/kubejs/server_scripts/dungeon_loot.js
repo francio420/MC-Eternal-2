@@ -42,7 +42,7 @@ LootJS.modifiers((event) => {
         .addLootTableModifier(table)
         .randomChance(0.10)
         .addWeightedLoot([
-            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:100L,currency:"eternalcurrencies:coins"}]}').withChance(1)
+            Item.of('eternalcurrencies:currency_item', '{currencies:[{amount:80L,currency:"eternalcurrencies:coins"}]}').withChance(1)
         ]);
 });
 
@@ -50,9 +50,6 @@ LootJS.modifiers((event) => {
     [
         "minecraft:chests/simple_dungeon",
         "minecraft:chests/abandoned_mineshaft",
-    "dungeoncrawl:chests/stage_1",
-    "dungeoncrawl:chests/stage_2",
-    "dungeoncrawl:chests/stage_3",
     "dungeoncrawl:chests/stage_4",
     "dungeoncrawl:chests/stage_5",
     "dungeoncrawl:chests/treasure",
@@ -65,7 +62,7 @@ LootJS.modifiers((event) => {
             .addLoot(
                 Item.of(
                     'eternalcurrencies:currency_item',
-                    '{currencies:[{amount:25L,currency:"eternalcurrencies:coins"}]}'
+                    '{currencies:[{amount:20L,currency:"eternalcurrencies:coins"}]}'
                 )
             );
 
