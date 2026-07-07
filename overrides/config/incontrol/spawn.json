@@ -1021,7 +1021,7 @@
     "customname": "§4Earthen Elemental",
     "result": "true",
     "when": "onjoin",
-    "healthmultiply": 5.0,
+    "healthmultiply": 2.0,
     "damagemultiply": 7.5,
     "speedmultiply": 1.2
   },
