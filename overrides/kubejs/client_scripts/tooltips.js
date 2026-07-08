@@ -64,6 +64,8 @@ ItemEvents.tooltip(event => {
 	event.add('kubejs:regret_scroll', Text.translate("tooltip.mce2.kubejs.regret_scroll1").color('#FFFFFF')); 
 	event.add('kubejs:dwarven_ring', Text.translate("tooltip.mce2.kubejs.dwarven_ring").color('#FFFFFF'));
 	event.add('kubejs:dwarven_ring', Text.translate("tooltip.mce2.kubejs.dwarven_ring.1").color('#FFFFFF'));
+	event.add('kubejs:king_ring', Text.translate("tooltip.mce2.kubejs.king_ring").color('#FFFFFF'));
+	event.add('kubejs:king_ring', Text.translate("tooltip.mce2.kubejs.king_ring.1").color('#FFFFFF'));
 	event.add('kubejs:lorkhan_heart', Text.translate("tooltip.mce2.kubejs.lorkhan_heart").color('#FFFFFF'));
 	event.add('kubejs:lorkhan_heart', Text.translate("tooltip.mce2.kubejs.lorkhan_heart.1").color('#FFFFFF'));
 
