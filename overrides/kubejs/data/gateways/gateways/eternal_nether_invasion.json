@@ -339,6 +339,13 @@
       "item": "kubejs:nether_item",
       "count": 1
     }
+  },
+     {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "kubejs:king_ring",
+      "count": 1
+    }
   }
 ],
 "failures": [
