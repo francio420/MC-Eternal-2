@@ -268,11 +268,11 @@
             "entities": [
                   
                  {
-                    "entity": "cataclysm:aptrgangr",
-                    "desc": "Eternal Warlord",
+                    "entity": "take_back_the_night:herobrine",
+                    "desc": "???",
                     "nbt": {
                         "CustomNameVisible": 1,
-                        "CustomName": "{\"text\":\"Eternal Warlord\",\"color\":\"dark_purple\"}",
+                        "CustomName": "{\"text\":\"Herobrine\",\"color\":\"dark_red\"}",
                         "IsImmuneToZombification": true
                     },
                     "modifiers": [
@@ -281,74 +281,37 @@
                         {
                             "attribute": "attributeslib:armor_shred",
                             "operation": "ADDITION",
-                            "value": 0.4
+                            "value": 0.5
+                        },
+                         {
+                            "attribute": "generic.max_health",
+                            "operation": "ADDITION",
+                            "value": 300
                         },
                         {
                             "attribute": "attributeslib:prot_shred",
                             "operation": "ADDITION",
-                            "value": 0.3
+                            "value": 0.8
                         },
                         {
                             "attribute": "generic.attack_knockback",
                             "operation": "ADDITION",
                             "value": 0.1
                         },
+                         {
+                            "attribute": "attributeslib:life_steal",
+                            "operation": "ADDITION",
+                            "value": 0.2
+                        },
                         {
                             "attribute": "generic.knockback_resistance",
                             "operation": "ADDITION",
-                            "value": 0.1
+                            "value": 0.5
                         }
                     ],
                     "count": 1,
                     "finalize_spawn": false
-                },
-                 {
-                    "entity": "cataclysm:royal_draugr",
-                    "desc": "Eternal Legionnaire",
-                    "nbt": {
-                        "CustomNameVisible": 1,
-                        "CustomName": "{\"text\":\"Eternal Legionnaire\",\"color\":\"dark_purple\"}",
-                        "IsImmuneToZombification": true
-                    },
-                    "modifiers": [
-                        {
-                            "type": "gateways:gear_set",
-                            "gear_set": "gateways:eternal"
-                        },
-                        {
-                            "attribute": "generic.max_health",
-                            "operation": "ADDITION",
-                            "value": 30
-                        },
-                        {
-                            "attribute": "attributeslib:armor_shred",
-                            "operation": "ADDITION",
-                            "value": 0.5
-                        },
-                        {
-                            "attribute": "attributeslib:prot_shred",
-                            "operation": "ADDITION",
-                            "value": 0.3
-                        },
-                        {
-                            "attribute": "generic.attack_knockback",
-                            "operation": "ADDITION",
-                            "value": 0.5
-                        },
-                        {
-                            "attribute": "generic.knockback_resistance",
-                            "operation": "ADDITION",
-                            "value": 0.25
-                        },
-                        {
-                            "attribute": "attributeslib:life_steal",
-                            "operation": "ADDITION",
-                            "value": 0.1
-                        }
-                    ],
-                    "count": 3,
-                    "finalize_spawn": false
-                }               
+                }             
             ],
             "modifiers": [
             ],
@@ -374,6 +337,13 @@
     "type": "gateways:stack",
     "stack": {
       "item": "kubejs:nether_item",
+      "count": 1
+    }
+  },
+     {
+    "type": "gateways:stack",
+    "stack": {
+      "item": "kubejs:king_ring",
       "count": 1
     }
   }

@@ -8,6 +8,7 @@ StartupEvents.registry("item", event => {
   event.create('unsigned_contract').glow(false);
   event.create('dwarven_ring').glow(true).displayName('§eDwarven Ring');
   event.create('lorkhan_heart').glow(true).displayName('§dHeart of Lorkhan');
+  event.create('king_ring').glow(true).displayName('§eRing of The Fallen Kingdom');
   
   event.create('dwarven_map')
     .fireResistant(true)
